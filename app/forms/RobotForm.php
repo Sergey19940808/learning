@@ -5,6 +5,7 @@ use Phalcon\Forms\Element\Text;
 use Phalcon\Forms\Element\Numeric;
 use Phalcon\Forms\Element\Select;
 use Phalcon\Validation\Validator\PresenceOf;
+use Phalcon\Validation\Validator\Uniqueness;
 
 
 class RobotForm extends Form
@@ -31,9 +32,10 @@ class RobotForm extends Form
 
         $name->addValidators([
             new PresenceOf([
-                'message' => 'Поле Имя не должно быть пустым'
+                "message" => "Имя робота не должно быть пустым"
             ])
         ]);
+
 
         $this->add($name);
 

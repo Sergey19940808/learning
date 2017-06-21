@@ -2,6 +2,9 @@
 
 
 use Phalcon\Mvc\Model;
+use Phalcon\Validation;
+use Phalcon\Validation\Validator\Uniqueness;
+
 
 class Robots extends Model
 
@@ -23,6 +26,23 @@ class Robots extends Model
             "Users",
             "id"
         );
+    }
+
+    public function validation()
+    {
+        $validator = new Validation;
+
+        $validator->add(
+            "name",
+            new Uniqueness(
+                [
+                    "message" => "Название робота должно быть уникальным",
+                ]
+            )
+        );
+
+        return $this->validate($validator);
+
     }
 
 

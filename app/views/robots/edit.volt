@@ -1,47 +1,42 @@
+{{ content() }}
 <div class="add-robot">
     <h2>
         Отредактируйте поля, чтобы изменить своего робота!
     </h2>
 
-    <?php echo $this->tag->form("robots/save"); ?>
+    {{ form("robots/save", "method": "post") }}
 
     <div>
         <div>
             <label for="name">Имя робота:</label>
+            {{ form.render("name") }}
         </div>
 
-        <?php /** @var $form  - object form*/
-        echo $form->render("name"); ?>
     </div>
     <br>
 
     <div>
         <div>
             <label for="type">Тип робота:</label>
+            {{ form.render("type") }}
         </div>
 
-        <?php echo $form->render("type"); ?>
     </div>
     <br>
 
     <div>
         <div>
             <label for="year">Год создания робота:</label>
+            {{ form.render("year") }}
         </div>
 
-        <?php echo $form->render("year"); ?>
     </div>
     <br>
 
 
     <br>
     <div>
-        <?php echo $this->tag->submitButton(
-            [
-                "Изменить",
-                "class" => "btn btn-primary"
-            ]
-        ); ?>
+        {{ submit_button("Сохранить изменения", "class": "btn btn-primary") }}
     </div>
-    <?php echo $this->tag->endForm(); ?>
+    {{ endForm() }}
 </div>

@@ -1,7 +1,6 @@
 <?php
 
 use Phalcon\Mvc\Controller;
-use Phalcon\Tag;
 
 class RobotsController extends Controller
 {
@@ -124,8 +123,8 @@ class RobotsController extends Controller
 
                 return $this->response->redirect(
                     [
-                        "for" => "user-edit",
-                        "name" => $user
+                        "for" => "robot-edit",
+                        "id" => $robot->id
 
                     ]
                 );

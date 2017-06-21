@@ -182,29 +182,3 @@ $di->setShared("router", function () {
 });
 
 
-$di->setShared(
-    "dispatcher", function () {
-
-    // Создаем менеджер событий
-    $eventsManager = new EventsManager();
-
-    // Плагин безопасности слушает события, инициированные диспетчером
-    $eventsManager->attach(
-        "dispatcher:beforeExecuteRoute",
-        new SecurityPlugin()
-    );
-
-    // Отлавливаем исключения и not-found исключения, используя NotFoundPlugin
-    $eventsManager->attach(
-        "dispatcher:beforeException",
-        new NotFoundPlugin()
-    );
-
-
-    $dispatcher = new Dispatcher();
-
-    // Связываем менеджер событий с диспетчером
-    $dispatcher->setEventsManager($eventsManager);
-
-    return $dispatcher;
-});

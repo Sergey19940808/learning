@@ -18,15 +18,4 @@ class SessionController extends Controller
             );
         }
     }
-
-    /**public function pageAction()
-    {
-        $this->dispatcher->forward(
-            [
-                "controller" => "users",
-                "action" => "usershow",
-                "name" => $this->session->get("auth-name")
-            ]
-        );
-    }*/
 }

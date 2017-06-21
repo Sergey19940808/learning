@@ -1,6 +1,7 @@
 <?php
 
 use Phalcon\Mvc\Model;
+use Phalcon\Mvc\Model\Relation;
 
 
 class Users extends Model
@@ -23,7 +24,12 @@ class Users extends Model
         $this->hasMany(
             "id",
             "Robots",
-            "users_id"
+            "users_id",
+            [
+                "foreignKey" => [
+                    "action" => Relation::ACTION_CASCADE,
+                ]
+            ]
         );
     }
 }

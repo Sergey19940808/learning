@@ -5003,3 +5003,1174 @@
 [Wed, 21 Jun 17 14:58:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
 [Wed, 21 Jun 17 14:58:47 +0500][INFO] DESCRIBE `robots`
 [Wed, 21 Jun 17 14:58:47 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 16:54:51 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 16:54:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:54:56 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:54:56 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:54:56 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:11 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 16:55:12 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:55:28 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:28 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:28 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 16:55:32 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 16:55:38 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 16:58:42 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 16:58:42 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 16:58:42 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:35:03 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:35:03 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:35:03 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 17:56:07 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:07 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:56:08 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:56:11 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:56:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:13 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:13 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:56:14 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:56:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:22 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:56:34 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:57:55 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:00 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:02 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:14 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:20 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:20 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:20 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] UPDATE `robots` SET `name` = ?, `type` = ?, `year` = ?, `users_id` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] UPDATE `robots` SET `name` = ?, `type` = ?, `year` = ?, `users_id` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:29 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:31 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:31 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] UPDATE `robots` SET `name` = ?, `type` = ?, `year` = ?, `users_id` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:33 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 17:58:37 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:18:27 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:20:50 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:23:49 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:24:59 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:27:03 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:33:40 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:34:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:36:26 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:39:55 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:41:06 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:07 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:41:07 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:41:07 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:07 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:41:07 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:41:08 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:41:50 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:42:28 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:42:45 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:42:47 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:43:11 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:47:11 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:48:00 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:48:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:33 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:48:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:48:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:34 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:48:34 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:48:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:50:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:50:30 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:50:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:32 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:50:32 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:50:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:32 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:50:32 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 18:50:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:00:48 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:00:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:00:52 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:00:52 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 23 LIMIT :APL0
+[Wed, 21 Jun 17 19:00:52 +0500][INFO] DELETE FROM `users` WHERE `id` = ?
+[Wed, 21 Jun 17 19:01:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:01:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:01:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:02:50 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:02:50 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:02:50 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:03:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:03:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:03:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:07:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:07:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:07:10 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:15:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:15:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:15:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:17:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:17:22 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:17:22 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:18:12 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:18:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:18:44 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:44 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:18:44 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 19:18:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:18:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:18:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:19:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:19:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:19:10 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:23:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:23:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:23:41 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:24:16 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:16 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:24:16 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:24:32 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:24:36 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:27:44 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:27:44 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:27:44 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:27:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:27:58 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`id` = :0
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:27:59 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:28:02 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:28:04 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:28:04 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:28:04 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 24 LIMIT :APL0
+[Wed, 21 Jun 17 19:28:04 +0500][INFO] DELETE FROM `users` WHERE `id` = ?
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:34:58 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:05 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:35:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:09 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:09 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`id` = :0
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:21 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:22 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:24 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:35:31 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:36:34 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:36:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:36:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:39:13 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:39:14 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:41:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:41:46 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:41:46 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:41:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:41:47 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:41:47 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 25 LIMIT :APL0
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] DELETE FROM `users` WHERE `id` = ?
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 19:41:49 +0500][INFO] DELETE FROM `robots` WHERE `id` = ?
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:43:10 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:43:40 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:43:43 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:43:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:43:53 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:43:53 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:44:06 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:44:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:44:16 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:16 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:16 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:44:41 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:44:58 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:45:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:00 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:00 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 27 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:45:12 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:45:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:45:35 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:45:55 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:45:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:45:57 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:45:57 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:46:08 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:46:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 28 LIMIT :APL0
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:46:11 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 19:51:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 19:51:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 19:51:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:53:41 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 20:53:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:53:43 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:53:43 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:18 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 20:54:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:54:45 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:54:47 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 20:54:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:50 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:54:52 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 20:54:56 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:00:55 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:01:12 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:02:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:02:56 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:02:56 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:02:56 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:02:59 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:02:59 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:02:59 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:00 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:00 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:15 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:15 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:15 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:18 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:03:19 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:19 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:19 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:40 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:40 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:40 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:41 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:41 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:03:42 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:04:31 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:04:33 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:04:34 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:04:36 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:04:36 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:04:36 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:06:47 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:06:49 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 21:06:51 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:06:51 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:06:51 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 21:07:18 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:01:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:01:57 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:01:57 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:02:08 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:02:11 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:03:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:03:10 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:03:12 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:03:14 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:03:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:03:57 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:03:57 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:04:29 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:05:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:05:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:05:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:10 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:10 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:10 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:07:18 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:18 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:18 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:24 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:25 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:07:26 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:22 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:23 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:24 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:25 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:43 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:46 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:08:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:49 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:49 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:08:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:11:09 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` LIMIT :APL0
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 26 LIMIT :APL0
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:12:27 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:12:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:12:43 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:12:43 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` LIMIT :APL0
+[Wed, 21 Jun 17 22:13:13 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:13:13 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:13:13 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:13:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:13:43 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:13:43 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:14:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:14:33 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:14:33 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:14:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:14:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:14:50 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:15:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:15:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:15:18 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`name` = :0 LIMIT :APL0
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:16:44 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:17:04 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:17:07 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:17:26 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:17:26 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:17:26 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:19:42 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:43 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:46 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:19:51 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:51 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:51 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 16 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 16 LIMIT :APL0
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:19:53 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 16 LIMIT :APL0
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:20:10 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 29 LIMIT :APL0
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] DELETE FROM `users` WHERE `id` = ?
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :0
+[Wed, 21 Jun 17 22:20:15 +0500][INFO] DELETE FROM `robots` WHERE `id` = ?
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`name` = :0
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `users` WHERE `users`.`email` = :0
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] INSERT INTO `users` (`name`, `password`, `email`, `about`) VALUES (?, ?, ?, DEFAULT)
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:21:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:21:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:38 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:38 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:38 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:21:39 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:21:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:41 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] INSERT INTO `robots` (`name`, `type`, `year`, `users_id`) VALUES (?, ?, ?, ?)
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:21:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:21:57 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:22:19 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:19 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:19 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:22:21 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:22:48 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:48 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:48 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] UPDATE `users` SET `name` = ?, `password` = ?, `email` = ?, `about` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:22:49 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:30:17 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:31:19 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:19 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:31:19 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 17 LIMIT :APL0
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 17 LIMIT :APL0
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] UPDATE `robots` SET `name` = ?, `type` = ?, `year` = ?, `users_id` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:31:38 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:31:41 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:39:54 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:39:54 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:39:54 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 17 LIMIT :APL0
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`id` = 17 LIMIT :APL0
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT COUNT(*) AS `rowcount` FROM `robots` WHERE `robots`.`name` = :0 AND `robots`.`id` <> :1
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] UPDATE `robots` SET `name` = ?, `type` = ?, `year` = ?, `users_id` = ? WHERE `id` = ?
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:39:57 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:40:00 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] DESCRIBE `users`
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users` WHERE `users`.`id` = 30 LIMIT :APL0
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] DESCRIBE `robots`
+[Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0

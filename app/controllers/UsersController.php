@@ -122,6 +122,9 @@ class UsersController extends Controller
                         $this->flashSession->success("Вы успешно вошли");
                         /** @var $user - параметр name */
                         return $this->response->redirect("/users/usershow/$name");
+                    } elseif ($name !== $user) {
+                        $this->flashSession->error("Вы ввели неверные данные");
+                        $this->response->redirect("users/loginshow");
                     }
                 }
             }
@@ -162,10 +165,10 @@ class UsersController extends Controller
 
 
 
-        $this->view->name = $user->name;
-        $this->view->about = $user->about;
-        $this->view->email = $user->email;
-        $this->view->robots = $user->robots;
+        $this->view->setVar("name", $user->name);
+        $this->view->setVar("about", $user->about);
+        $this->view->setVar("email", $user->email);
+        $this->view->setVar("robots", $user->robots);
 
     }
 
