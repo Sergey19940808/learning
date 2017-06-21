@@ -1,0 +1,24 @@
+<div class="user-show">
+    <?php /** @var $form - object form*/
+    echo $this->tag->form("users/usersave"); ?>
+
+    <div>
+      <div>
+        <label for="about">Обо мне:</label>
+      </div>
+
+         <?php echo $form->render("about"); ?>
+
+         </div>
+
+         <br>
+         <div>
+           <?php echo $this->tag->submitButton(
+             [
+               "Редактировать",
+               "class" => "btn btn-primary"
+             ]
+           ); ?>
+         </div>
+         <?php echo $this->tag->endForm(); ?>
+    </div>

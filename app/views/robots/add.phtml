@@ -1,0 +1,47 @@
+<div class="add-robot">
+  <h2>
+    Заполните эту форму, чтобы добавить своего робота!
+  </h2>
+
+  <?php echo $this->tag->form("robots/add"); ?>
+
+  <div>
+    <div>
+        <label for="name">Имя робота:</label>
+    </div>
+
+      <?php /** @var $form  - object form*/
+    echo $form->render("name"); ?>
+  </div>
+  <br>
+
+  <div>
+    <div>
+        <label for="type">Тип робота:</label>
+    </div>
+
+    <?php echo $form->render("type"); ?>
+  </div>
+  <br>
+
+  <div>
+    <div>
+        <label for="year">Год создания робота:</label>
+    </div>
+
+    <?php echo $form->render("year"); ?>
+  </div>
+  <br>
+
+
+  <br>
+  <div>
+      <?php echo $this->tag->submitButton(
+          [
+              "Добавить",
+              "class" => "btn btn-primary"
+          ]
+      ); ?>
+  </div>
+  <?php echo $this->tag->endForm(); ?>
+</div>

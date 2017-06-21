@@ -1,0 +1,5 @@
+html                { position: relative;  min-height: 100%; }
+body                { margin-bottom: 120px !important; }
+.footer             { position: absolute; bottom: 0; width: 100%; height: 70px; background: #39b54a;
+                      color: #fff; }
+p.name              { size: 20px; }
