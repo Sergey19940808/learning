@@ -48,4 +48,12 @@ $router->add(
     ])->setName("robot-edit");
 
 
+$router->add(
+    "/test/accept",
+    [
+        "controller" => "test",
+        "action" => "accept",
+    ])->setName("accept");
+
+
 return $router;

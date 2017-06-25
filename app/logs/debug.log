@@ -6174,3 +6174,30 @@
 [Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
 [Wed, 21 Jun 17 22:40:52 +0500][INFO] DESCRIBE `robots`
 [Wed, 21 Jun 17 22:40:52 +0500][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year`, `robots`.`users_id` FROM `robots` WHERE `robots`.`users_id` = :APR0
+[Fri, 23 Jun 17 10:52:30 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 10:52:31 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 10:52:31 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 10:52:33 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 10:52:33 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 10:52:33 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 10:54:29 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 10:54:29 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 10:54:29 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:08:35 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:08:35 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:08:35 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:08:36 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:10:03 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
+[Fri, 23 Jun 17 11:11:02 +0500][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 23 Jun 17 11:11:02 +0500][INFO] DESCRIBE `users`
+[Fri, 23 Jun 17 11:11:02 +0500][INFO] SELECT `users`.`id`, `users`.`name`, `users`.`password`, `users`.`email`, `users`.`about` FROM `users`
